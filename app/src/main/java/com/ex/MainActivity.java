@@ -4,22 +4,15 @@ import android.os.Bundle;
 
 import com.fastcountrycode.Country;
 import com.fastcountrycode.CountryPickerListener;
-import com.fastcountrycode.widget.CountryCodeOnlyM;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import com.fastcountrycode.widget.FastCountryCodeOnlyM;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.view.View;
-
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
-    CountryCodeOnlyM cancel_button;
+    FastCountryCodeOnlyM cancel_button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

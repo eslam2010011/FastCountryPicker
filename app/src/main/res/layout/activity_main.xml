@@ -12,7 +12,7 @@
 
 
 
-    <com.fastcountrycode.widget.EditTextM
+    <com.fastcountrycode.widget.FastCountryCodeM
         android:id="@+id/fab"
         android:gravity="center"
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:layout_gravity="center"
          />
 
-    <com.fastcountrycode.widget.CountryCodeOnlyM
+    <com.fastcountrycode.widget.FastCountryCodeOnlyM
          android:gravity="center"
         android:id="@+id/cancel_button"
         android:layout_width="match_parent"
