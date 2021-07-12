@@ -99,4 +99,8 @@ public class FastCountryCodeM extends LinearLayout {
     public Country getCountry_() {
         return country_;
     }
+    
+    public String getPhone_number() {
+        return Phone_number.getText().toString();
+    }
 }
