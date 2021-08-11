@@ -104,7 +104,7 @@ public class FastCountryCodeM extends LinearLayout {
         return Phone_number.getText().toString();
     }
     
-     public EditText getPhone_number() {
+     public EditText getEditText_Phone_number() {
         return Phone_number;
     }
 }
