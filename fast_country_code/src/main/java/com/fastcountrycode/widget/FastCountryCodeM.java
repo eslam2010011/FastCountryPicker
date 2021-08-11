@@ -103,4 +103,8 @@ public class FastCountryCodeM extends LinearLayout {
     public String getPhone_number() {
         return Phone_number.getText().toString();
     }
+    
+     public EditText getPhone_number() {
+        return Phone_number;
+    }
 }
